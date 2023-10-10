@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-10T07:59:00 BDT" name="Default suite" finished-at="2023-10-10T08:00:22 BDT" duration-ms="81559">
+    <groups>
+    </groups>
+    <test started-at="2023-10-10T07:59:00 BDT" name="Default test" finished-at="2023-10-10T08:00:22 BDT" duration-ms="81559">
+      <class name="Test.ComputerVillage">
+        <test-method is-config="true" signature="setBaseUrl()[pri:0, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:00 BDT" name="setBaseUrl" finished-at="2023-10-10T07:59:08 BDT" duration-ms="8321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUrl -->
+        <test-method signature="invalidCredential()[pri:1, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:08 BDT" name="invalidCredential" description="Verify that a user cannot log in with invalid credentials." finished-at="2023-10-10T07:59:10 BDT" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredential -->
+        <test-method signature="signup()[pri:2, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:10 BDT" name="signup" description="Verify that a user can successfully register his account" finished-at="2023-10-10T07:59:13 BDT" duration-ms="3566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="resetPassword()[pri:3, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:13 BDT" name="resetPassword" description="Verify that a user can reset their password." finished-at="2023-10-10T07:59:15 BDT" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method signature="login()[pri:4, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:15 BDT" name="login" description="Verify that a user can log in by valid credential" finished-at="2023-10-10T07:59:25 BDT" duration-ms="10095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="search()[pri:5, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:25 BDT" name="search" description="Verify that a user can search for a product using the search bar." finished-at="2023-10-10T07:59:26 BDT" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="results()[pri:6, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:26 BDT" name="results" description="Verify that search results are displayed correctly." finished-at="2023-10-10T07:59:26 BDT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- results -->
+        <test-method signature="filters()[pri:7, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:26 BDT" name="filters" description="Verify that filters (processor, brand) work correctly on the search results page." finished-at="2023-10-10T07:59:34 BDT" duration-ms="7735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filters -->
+        <test-method signature="productDetails()[pri:8, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:34 BDT" name="productDetails" description="Verify that a user can view the details of a product." finished-at="2023-10-10T07:59:35 BDT" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetails -->
+        <test-method signature="productReviews()[pri:9, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:35 BDT" name="productReviews" description="Verify that product reviews are displayed correctly." finished-at="2023-10-10T07:59:35 BDT" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productReviews -->
+        <test-method signature="addToCart()[pri:10, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:35 BDT" name="addToCart" description="Verify that a user can add a product to the cart." finished-at="2023-10-10T07:59:37 BDT" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="viewCart()[pri:11, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:37 BDT" name="viewCart" description="Verify that a user can view the items in their shopping cart." finished-at="2023-10-10T07:59:37 BDT" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCart -->
+        <test-method signature="updateQuantity()[pri:12, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:37 BDT" name="updateQuantity" description="Verify that a user can update the quantity of items in the cart." finished-at="2023-10-10T07:59:37 BDT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateQuantity -->
+        <test-method signature="removeItems()[pri:13, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:37 BDT" name="removeItems" description="Verify that a user can remove items from the cart." finished-at="2023-10-10T07:59:48 BDT" duration-ms="11229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItems -->
+        <test-method signature="checkOut()[pri:14, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:48 BDT" name="checkOut" description="Verify that the checkout process includes the correct steps (name,address,contact)." finished-at="2023-10-10T07:59:50 BDT" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+        <test-method signature="editProfile()[pri:15, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:50 BDT" name="editProfile" description="Verify that a user can update their profile information." finished-at="2023-10-10T07:59:51 BDT" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProfile -->
+        <test-method signature="changePassword()[pri:16, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:51 BDT" name="changePassword" description="Verify that user can change their password" finished-at="2023-10-10T07:59:52 BDT" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method signature="addAddress()[pri:17, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:52 BDT" name="addAddress" description="Verify that a user can add address to the address book" finished-at="2023-10-10T07:59:54 BDT" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="orderHistory()[pri:18, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:54 BDT" name="orderHistory" description="Verify that a user can view their order history" finished-at="2023-10-10T07:59:55 BDT" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method signature="transactionHistory()[pri:19, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:55 BDT" name="transactionHistory" description="Verify that a user can view their transaction history" finished-at="2023-10-10T07:59:55 BDT" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionHistory -->
+        <test-method signature="buildingPC()[pri:20, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T07:59:55 BDT" name="buildingPC" description="Verify that a user can build a CPU according to their requirements" finished-at="2023-10-10T08:00:21 BDT" duration-ms="25975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buildingPC -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Test.ComputerVillage@7fb95505]" started-at="2023-10-10T08:00:21 BDT" name="quit" finished-at="2023-10-10T08:00:22 BDT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Test.ComputerVillage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

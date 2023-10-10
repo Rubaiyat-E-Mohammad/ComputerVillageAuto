@@ -1,0 +1,1 @@
+{"uuid":"94236a37-5391-4f33-a4f3-fef24af50d15","name":"Default test","children":["665f9f0b-ae76-4e12-a23d-8474ed61965f"],"befores":[{"name":"setBaseUrl","status":"passed","stage":"finished","description":"Setting up the base URL","steps":[],"attachments":[],"parameters":[],"start":1696898447616,"stop":1696898453250}],"afters":[],"start":1696898447609,"stop":1696898463806}
